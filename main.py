@@ -38,10 +38,7 @@ async def salom_handler(msg:Message):
 @dp.message()
 async def message_handler(msg:Message):
     T=msg.text
-    if T.lower()=='seni kim yaratgan'or T.lower()=='seni kim yasagan':
-        await msg.answer('Asadbek')
-    else:
-        await msg.answer('Salom Ali')
+    await msg.answer('Assalomu allekum')
 
 
 async def main():
