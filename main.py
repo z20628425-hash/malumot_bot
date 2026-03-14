@@ -3,8 +3,6 @@ import logging
 import os
 import sys
 
-import edge_tts
-
 import asyncio
 
 from aiogram import Dispatcher,Bot,F
